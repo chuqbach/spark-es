@@ -1,0 +1,1 @@
+spark-submit --packages org.elasticsearch:elasticsearch-hadoop:8.3.1 test/test_latest_es.py

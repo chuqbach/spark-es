@@ -1,0 +1,1 @@
+spark-submit --packages org.elasticsearch:elasticsearch-hadoop:7.5.1 main.py
