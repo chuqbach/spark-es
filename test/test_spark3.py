@@ -4,8 +4,8 @@ import pyspark.sql.functions as F
 
 spark_config = {
     "spark.app.name": "Elastic Spark",
-    "spark.jars.packages": "org.elasticsearch:elasticsearch-hadoop:8.3.1",
-    # "spark.jars": "jars/elasticsearch-hadoop-8.3.1.jar",
+    # "spark.jars.packages": "org.elasticsearch:elasticsearch-hadoop:8.3.1",
+    "spark.jars": "jars/elasticsearch-hadoop-8.3.1.jar",
     "spark.es.nodes": "myIP",
     "spark.es.port": "9200",
     "spark.es.index.auto.create": "true",
