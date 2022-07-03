@@ -9,7 +9,7 @@ spark_config = {
     "spark.es.nodes": "myIP",
     "spark.es.port": "9200",
     "spark.es.index.auto.create": "true",
-    "spark.es.nodes.wan.only": "true",
+    "spark.es.nodes.wan.only": "true", # set the es.nodes.wan.only property to 'true' so that the connector will connect to the node(s) specified by the `es.nodes` parameter.
 }
 
 
